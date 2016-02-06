@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+body{font-family: Tahoma, Geneva, sans-serif;
+	
+	}
+marcar{
+	color:rgba(0,153,255,1);
+	}
+.titulo{
+	color:rgba(0,204,0,1);
+	
+	font-weight:bold;
+	font-size:24px;
+	padding-bottom:10px;
+	border-bottom:1px solid rgba(204,204,204,1);
+	}
+	a{
+		color:rgba(0,102,255,1);
+		}
+p{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size:18px;
+	}
+.red{
+	color:red;
+	
+	}
