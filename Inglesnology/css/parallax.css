@@ -1,0 +1,33 @@
+
+	html,body{
+		margin:0px;
+		background-attachment:inherit;
+		overflow-x:hidden;
+		}
+		#fondo{
+			overflow:hidden;
+			background:url(el-cielo-en-movimiento.jpg);
+			background-size:cover;
+			width:100%;
+			height:400px;;
+			}
+			.scene {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  position: relative;
+  max-width: 600px;
+  margin:0;
+  padding:0;
+
+}
+#primero{
+	position :relative;
+    -webkit-animation: mymove 2s infinite; /* Chrome, Safari, Opera */ 
+	}
+	
+	@-webkit-keyframes mymove {
+    from {left: -1400px;}
+    to {left: 1400px;}
+} 

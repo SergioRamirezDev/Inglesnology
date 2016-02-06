@@ -1,0 +1,348 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, table, td{
+	margin:0px;
+	}
+	/* Aqui empieza el slider del documento */
+#descargasslider{
+	width:100%;
+	height:400px;
+	background:url(../img/descargasslider.jpg) no-repeat center center;
+	background-size:cover;
+	
+	}
+	/* Aqui termina el slider del documento */
+	
+	/* Aqui empieza el inicio de sesion*/
+		.caja{
+		width: 382px;
+		display: inline-block;
+		height:20px;
+padding: 4px;
+margin: 0;
+outline: 0;
+background-color: #fff;
+border: 1px solid #e1e8ed;
+border-radius: 3px;
+		}
+	.botoninicio{
+		color: #292f33;
+text-decoration: none;
+background-color: #e1e8ed;
+background-image: linear-gradient(#fff,#e1e8ed);
+border-color: #e1e8ed;
+background-image: linear-gradient(#fff,#f5f8fa);
+border: 1px solid #e1e8ed;
+border-radius: 4px;
+color: #66757f;
+margin-top:10px;
+cursor: pointer;
+display: block;
+font-size: 14px;
+font-weight: bold;
+outline:none;
+line-height: normal;
+padding: 8px 16px;
+position: relative;
+width:126;
+height:34px;
+		}
+	.botoninicio:hover{
+		color: #292f33;
+text-decoration: none;
+background-color: #e1e8ed;
+background-image: linear-gradient(#fff,#e1e8ed);
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled=false)";
+border-color: #e1e8ed;
+		}
+		#olvidar{
+			color:blue;
+			display:block;
+			margin-top:40px;
+			cursor:pointer;
+			}
+		#olvidar:hover{
+			text-decoration:underline;
+			}
+	
+
+/* Aqui termina el inicio de sesion */
+	
+/* Aqui empieza los derechos reserados del documento */
+				  #derechosreservados{
+					  width:100%;
+					  padding:20px;
+						border-top-width:5px;
+		border-top-style:solid;
+		border-top-color:rgba(0,153,255,1);
+		font: 16px/135% 'Open Sans','Nanum Gothic',sans-serif;
+		background-image:url(../img/mapa.png);
+		background-position:right;
+		background-repeat:no-repeat;
+					  }
+				.titulodr{
+					font-weight:bold;
+					margin:10px;
+					margin-left:0px;
+					
+					}
+				
+				.textodr{
+					cursor:pointer;
+					list-style:none;
+					}
+				.textodr:hover{
+					text-decoration:underline;
+					}
+				.cuadrodr{
+					width:20%;
+					
+					}
+				ul{
+					list-style:none;
+					
+					}
+	/* Aqui terminan los derechos resevados del documento */
+		/* Aqui empieza el contenido del menu */
+	a{
+		text-decoration:none;
+		color:black;
+		}
+#superior{
+     z-index:99;
+	width:100%;
+	height:50px;
+	background-color:rgba(255,255,255,1);
+	/*
+		background: -webkit-linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,1));
+  background: -o-linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,1)); 
+  background: -moz-linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,1));
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,1)); 
+  
+  */
+	
+	min-width:1150px;
+	border-bottom: 1px solid rgba(0,0,0,0.15);
+	box-shadow: 0em 0em 0.0em black;
+	position:fixed;
+	top:0px;
+	}
+	#superiormenu{
+		
+     z-index:0;
+	width:100%;
+	height:30px;
+	background-color:rgba(0,153,255,0.8);
+	
+
+  
+	min-width:1150px;
+	border-bottom: 1px solid rgba(0,0,0,0.15);
+	box-shadow: 0em 0em 0.0em black;
+	position:fixed;
+	transform:translateY(0px);
+	transition-duration:1s;
+	}
+	
+	#cajadetextotitulo{
+		float:right;
+		margin-right:20px;
+		outline:none;
+		width:250px;
+		font-size:18px;
+		font-family:Tahoma, Geneva, sans-serif;
+		padding-left:5px;
+		height:25px;
+		border:0px;
+		display:none;
+		}
+		#titulotexto{
+		font-family:"Arial Black", Gadget, sans-serif;
+		font-size:16px;
+		padding-left:20px;
+		margin-left:10px;
+		padding-top:5px;
+		float:right;
+		font-weight:bold;
+		cursor:pointer;
+		opacity:0.9;
+		color:black;
+		background-position:left;
+		background-repeat:no-repeat;
+		}
+	#titulotexto:hover{
+		opacity:1;
+		}
+	#perfil{
+		float:right;
+		margin-right:20px;
+		margin-left:20px;
+		opacity:0.3;
+		cursor:pointer;
+		}
+	#perfil:hover{
+		opacity:1;
+		}
+
+	#logo{
+		float:left;
+		padding-left:100px;
+		cursor:pointer;
+		}
+	/* Aqui termina el contenido del menu */
+	
+	
+	/* Aqui empieza el titulo del documento */
+	.titulodescarga{
+color: #1b2229;
+font-weight: bold;
+font-size:36px;
+text-transform:uppercase;
+font-family:Tahoma, Geneva, sans-serif;
+
+		}
+    .titulomenu{
+		color: white;
+		cursor:pointer;
+		margin-right:50px;
+		padding-top:30px;
+font-weight: bold;
+/* background:url(../img/trianguloblanco.png) no-repeat center; */
+		}
+	.titulomenu:hover{
+		text-decoration:underline;
+		}
+	/* Aqui empieza el texto del Documento */
+		.texto{
+		padding:50px;
+	padding-bottom:10px;
+		font-size:20px;
+		font-family:Tahoma, Geneva, sans-serif;
+		}
+		
+	/* Aqui el registro del documento */
+	
+	#registrate{
+		
+		background-color: #f0f0f0;
+		padding: 30px;
+		width:360px;
+		border-radius:2px;
+		height:221px;
+		margin-right:50px;
+		}
+	.textoregistro{
+		font-size: 0.9375em;
+line-height: 1.5em;
+margin: 0 0 15px 0;
+word-break: break-word;
+font: 16px/135% 'Open Sans','Nanum Gothic',sans-serif;
+font-style: normal;
+font-weight: normal;
+color: #455463;
+		}
+	.botonregistro{
+		background-color: rgba(0,153,255,1);
+		height: 50px;
+border:0px;
+padding: 0 40px;
+font-weight:bold;
+font-size: 1.0em;
+height: 42px;
+display: block;
+float: left;
+padding: 0 20px;
+color: #fff;
+font-size: 18px;
+margin-top:10px;
+text-align: center;
+cursor: pointer;
+text-decoration: none;
+font-family:Tahoma, Geneva, sans-serif;
+text-transform: uppercase;
+border-radius: 3px;
+transition-duration:0.2s;
+		}
+.botonregistro:hover{
+	background-color:black;
+	
+	}
+	/* Aqui termina el registro del documento */
+	
+	/* Aqui empieza la seccion de videojuegos, web y applicaciones del documento */
+	
+	.linea{
+		border-bottom: #e6e6e6 1px solid;
+		padding-bottom:10px;
+		display:block;
+		}
+	.bloque{
+		
+		padding: 20px;
+		width:100%;
+		border-radius:2px;
+		height:221px;
+		margin-top:10px;
+		margin-right:50px;
+		}
+	.bloque:hover{
+		background-color: #f0f0f0;
+		}
+	.imageniz{
+		height:130px;
+		width:130px;
+		margin-right:20px;
+		float:left;
+		box-shadow: 0.0em 0.0em 0.3em black;
+		}
+	.imagen{
+		height:250px;
+		width:100%;
+		margin-right:20px;
+		margin-bottom:20px;
+		box-shadow: 0.0em 0.0em 0.3em black;
+		}
+	.bloquetitulo{
+		display:block;
+		margin-bottom:10px;
+			font-size:18px;
+			font-weight:bold;
+		font-family: 'avalon','Nanum Gothic','Open Sans',sans-serif;
+		text-transform:capitalize;
+		}
+	.bloquetexto{
+		color:rgba(102,102,102,1);
+		display:block;
+		font-family: 'avalon','Nanum Gothic','Open Sans',sans-serif;
+		font-size:15px;
+		}
+	.download{
+		width:40px;
+		float:right;
+		cursor:pointer;
+		opacity:0.6;
+		}
+	.download:hover{
+		opacity:1;
+		}
+	.leermas{
+		padding-right:35px;
+		font-size:18px;
+		font-family:Tahoma, Geneva, sans-serif;
+color:rgba(0,153,255,1);
+cursor:pointer;
+background-image:url(../img/flecha.png);
+background-position:right;
+background-repeat:no-repeat;
+
+		}
+	.leermas:hover{
+		text-decoration:underline;
+		}
+.bloqueancho{width:50%;}
+.creditos{
+								cursor:pointer;
+								float:right;
+							    margin-left:10px;
+							
+								}	
