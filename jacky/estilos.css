@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:url(fondo.png);
+	}
+.superior{
+	margin-top:70px;
+	width:980px;
+	}
+.logo{
+	float:left;
+	}
+.menu{
+	
+margin:30px;
+color: rgb(114, 73, 35);
+text-transform:uppercase;
+font: normal normal normal 12px/1.2em spinnaker, sans-serif;
+cursor:pointer;
+transition-duration:0.2s;
+	}
+.menu:hover{
+	color: rgb(184, 162, 142);
+	}
+.pagina{
+	color: rgb(184, 162, 142);
+	}
+.tituloabajo{
+	color: rgb(114, 73, 35);
+	font: normal normal normal 22px/1.2em 'noticia text', serif;
+	display:block;
+	}
+.cuadroabajo{
+	background-color: rgba(249, 234, 149, 0.65098);
+	padding:10px;
+	text-align:center;
+	}
+.textoabajo{
+	color: rgb(114, 73, 35);
+	font: normal normal normal 13px/1.2em spinnaker, sans-serif;
+	
+	}
+.botonabajo{
+	background-color: rgb(255, 255, 255);
+	cursor: pointer;
+	color: rgb(114, 73, 35);
+	width:100%;
+	margin-top:20px;
+	display:block;
+	padding:5px;
+	border:0px;
+	}
+.margen{
+	padding:10px;
+	}
+a{
+	text-decoration:none;
+	}
+.cuerpo{
+	width:973px;
+	border:1px solid black;
+	padding:10px;
+	background-color:white;
+	}
+.slider{
+	width: 940px;
+	border:1px solid black;
+height: 297px;
+	}
+p{
+	font: normal normal normal 13px/1.2em spinnaker, sans-serif;
+color: rgb(114, 73, 35);
+	}
+.titulopagina{
+	width:380px;
+	height:80px;
+	background-color: rgba(249, 234, 149, 0.65098);
+	font: normal normal bold 21px/1.2em 'noticia text', serif;
+color: rgb(114, 73, 35);
+text-align:center;
+	}
+.galeria{
+	border: 1px solid rgb(114, 73, 35);
+	margin:5px;
+	width:31%;
+	}
+.imagenmenu{
+	width:290px;
+	border: 1px solid rgb(114, 73, 35);
+	}
+.titulomenu{
+	font: normal normal normal 15px/1.2em spinnaker, sans-serif;
+color: rgb(114, 73, 35);
+text-transform:uppercase;
+	}
+.caja{
+	color: rgb(114, 73, 35);
+background-color: rgb(249, 234, 149);
+font: normal normal normal 15px/1.2em spinnaker, sans-serif;
+box-sizing: border-box;
+border-radius: 0px;
+border: 0px solid rgb(160, 74, 0);
+padding: 5px;
+margin: 0px 0px 5px;
+width: 100%;
+outline:none;
+resize:none;
+	}
+	.boton{
+		color: rgb(255, 255, 255);
+background-color: rgb(160, 74, 0);
+padding: 5px;
+border: none;
+cursor:pointer;
+		}
+	.contacto{
+		color: rgb(114, 73, 35);
+		font: normal normal bold 21px/1.2em 'noticia text', serif;
+		padding-bottom:10px;
+		}

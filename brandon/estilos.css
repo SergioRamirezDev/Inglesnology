@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* CSS Document */
+body, html {
+	margin:0px;
+	}
+body{
+	background:url(cafeteria.jpg) no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	}
+.superior{
+
+	width:100%;
+	height:60px;
+	background-color: rgb(36, 37, 29);
+box-shadow: rgba(0, 0, 0, 0.701961) 0px 0px 5px 0px;
+	}
+.logo{
+	font: normal normal normal 30px/1.4em 'josefin slab', serif;
+color: rgb(255, 255, 255);
+	}
+.menu{
+	font: normal normal normal 20px/1.4em 'josefin slab', serif;
+color: rgb(255, 255, 255);
+margin-left:20px;
+margin-right:20px;
+cursor:pointer;
+transition-duration:0.2s;
+	}
+.menu:hover{
+	color: rgb(208, 219, 149);
+	}
+.paginamenu{
+	color: rgb(208, 219, 149);
+	}
+	
+.cuerpo{
+	margin:35px;
+	width:980px;
+	background-color:white;
+	padding-top:50px;
+	padding:30px;
+	padding-bottom:50px;
+	}
+.slider{
+	width: 100%;
+height: 335px;
+	border: 3px solid rgb(182, 201, 72);
+	padding-top:35px;
+	}
+ .horas{
+top: 250px;
+min-width: 405px;
+min-height: 90px;
+background-color: rgb(101, 101, 101);
+border-radius: 1px;
+box-shadow: rgba(0, 0, 0, 1) 1px 0px 8px 0px;
+position:relative;
+padding:20px;
+padding-left:50px;
+padding-right:50px;
+	}
+.subtitulo{
+	font-family: 'Josefin Slab';
+font-size: 24px;
+	color: rgb(208, 219, 149);
+	text-transform:uppercase;
+	
+	}
+.cuadro{
+	width:200px;
+	color:white;
+	padding-left:20px;
+	padding-right:20px;
+	height:50px;
+	
+	}
+.papel{
+	position:relative;
+	top:140px;
+	left:280px;
+	}	
+.bloque{
+	width:914px;
+	font: normal normal normal 60px/1.4em 'josefin slab', serif;
+color: rgb(36, 37, 29);
+margin-top:100px;
+border-bottom: 5px solid rgba(204,204,204,1);
+margin-bottom:10px;
+	}
+.imagenbloque{
+	border: 3px solid rgb(182, 201, 72);
+	height:400px;
+	}
+.bloquetitulo{
+	font: normal normal normal 26px/1.4em 'josefin slab', serif;
+color: rgb(190, 88, 7);
+display:block;
+	}
+.bloquetexto{
+	font: normal normal normal 17px/1.4em arial, 'ｍｓ ｐゴシック', 'ms pgothic', 돋움, dotum, helvetica, sans-serif;
+color: rgb(68, 67, 67);
+	
+	}
+.margen{
+	padding:10px;
+	padding-bottom:20px;
+	}
+.final{
+	width:100%;
+	height:60px;
+	background-color: rgb(36, 37, 29);
+box-shadow: rgba(0, 0, 0, 0.701961) 0px 0px 5px 0px;
+padding-left:100px;
+padding-right:100px;
+color:white;
+	}
+.redes{
+	height:20px;
+	margin:10px;
+	cursor:pointer;
+
+}
+.textofinal{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	margin-left:30px;
+	margin-right:30px;
+	}
+b{
+	color: rgb(190, 88, 7);
+	}
+a{
+	text-decoration:none;
+	}
+.galeria{
+	border: 3px solid rgb(182, 201, 72);
+	height:225px;
+	}
+.mapa{
+		border: 3px solid rgb(182, 201, 72);
+		width:520px;
+		height:265px;
+		margin-left:10px;
+	}
+.caja{
+	color: rgb(58, 28, 19);
+background-color: rgb(255, 255, 255);
+font: normal normal normal 14px/1.4em helvetica-w01-light, helvetica-w02-light, sans-serif;
+box-sizing: border-box;
+border-radius: 0px;
+outline:none;
+border: 0px solid rgb(58, 28, 19);
+border-image-source: initial;
+border-image-slice: initial;
+border-image-width: initial;
+border-image-outset: initial;
+border-image-repeat: initial;
+padding: 5px;
+margin: 0px 0px 5px;
+width: 100%;
+-webkit-appearance: none;
+box-shadow: 0.0em 0.2em 0.2em #CCCCCC;
+	}
+.area{
+	box-shadow: 0.0em 0.2em 0.2em #CCCCCC;
+		color: rgb(58, 28, 19);
+background-color: rgb(255, 255, 255);
+font: normal normal normal 14px/1.4em helvetica-w01-light, helvetica-w02-light, sans-serif;
+box-sizing: border-box;
+border-radius: 0px;
+outline:none;
+border: 0px solid rgb(58, 28, 19);
+border-image-source: initial;
+border-image-slice: initial;
+border-image-width: initial;
+border-image-outset: initial;
+border-image-repeat: initial;
+padding: 5px;
+margin: 0px 0px 5px;
+width: 200px;
+height:100%;
+resize:none;
+-webkit-appearance: none;
+	}
+.boton{
+color: rgb(255, 255, 255);
+background-color: rgb(182, 201, 72);
+font: normal normal normal 14px/1.4em helvetica-w01-light, helvetica-w02-light, sans-serif;
+padding: 5px;
+border: none;
+cursor: pointer;
+float:right;
+	}

@@ -1,0 +1,376 @@
+@charset "utf-8";
+/* CSS Document */
+html, body{
+	margin:0px;
+	
+	}
+	/* Este pertenece al lugar donde esta el titulo */
+	#top{
+		width:100%;
+		font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font-weight:bold;
+	height:20px;
+	border-bottom-width:1px;
+	border-bottom:solid;
+	border-bottom-color:green;
+		}
+#superior{
+	width:100%;
+	height:60px;
+	background-color:#999;
+	font-size:36px;
+	background:url(granito.jpg) no-repeat center center fixed;
+	background-size:cover;
+	color:green;
+	font-weight:bold;
+	border-bottom-width:5px;
+	border-bottom:solid;
+	border-bottom-color:green;
+	}
+	/* lugar donde se encuetra la imagen del menu */
+	
+		/* imagen donde esta las imagenes que cambian*/
+	#slider{
+		width:100%;
+	height:449px;
+		}
+		#segundomenu{
+	background:green;
+	box-shadow: 0.0em 0.0em 0.5em black;
+	width:100%;
+	height:30px;
+	=
+		}
+		
+		/* Menu deslisante */
+		ul{
+			margin:0px;
+			padding:0px;
+			
+				
+			}
+li{
+	padding:10px;
+	cursor:pointer;
+	display:block;
+	
+	transition-duration:0.3s;
+	}
+li:hover{
+padding-left:20px;
+	}
+	.menuactivado{
+		position:absolute;
+		background:white;
+		box-shadow: 0.0em 0.0em 0.1em black;
+		width:300px;
+		height:85%;
+		-webkit-transform:translateX(-100%);
+		transform:translateX(-100%);
+		transition-duration:0.3s;
+		
+		}
+		#a1, #a2{
+		display:none;
+		border-bottom: 3px solid #D1D1D1;
+		
+		}
+		
+		
+		#activarmenu{
+			cursor:pointer;
+			display:none;
+			background-image:url(menu.png);
+			background-size:cover;
+			background-repeat:no-repeat;
+			background-position:center;
+			float:left;
+			width:70px;
+			height:60px;
+			}
+		
+			
+			.activado{
+			-webkit-transform:translateX(0%);
+			transform:translateX(0%);
+			z-index:2;
+			}
+::-webkit-scrollbar {
+    width: 10px;
+	cursor:pointer;
+	background-color:rgba(153,153,153,1);
+}
+ ::-webkit-scrollbar:horizontal{
+    display:none;
+}
+::-webkit-scrollbar-thumb {
+    background-color:rgba(204,204,204,1);
+	border-radius:4px;
+}
+
+			#bienvenida{
+				 border-bottom: 1px solid #D1D1D1;
+				 background-image:url(flecha.png);
+	background-repeat:no-repeat;
+	background-position:right;
+		padding:10px;
+	cursor:pointer;
+	display:block;
+	font-weight:bold;
+				}
+				#alado{
+		background-color:white;
+	width:30px;
+	padding:10px;
+	height:30px;
+		background-image:url(flecha.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	float:right;
+	}
+	#lugar{
+		padding:0px;
+		padding-left:20px;
+		padding-right:20px;
+		
+		list-style-type:disc;
+		float:center;
+		cursor:pointer;
+		font-weight:bold;
+		transition-duration:0.1s;
+			background-image:url(location1.png);
+			background-repeat:no-repeat;
+			background-position:left;
+		}
+		#lugar:hover{
+			color:rgba(0,153,0,1);
+			background-image:url(location.png);
+			background-repeat:no-repeat;
+			background-position:left;
+			}
+			#bandera{
+				padding-left:2px;
+		padding-right:2px;
+		border-radius:50px;
+		width:30px;
+		opacity:0.3;
+		cursor:pointer;
+		float:right;
+		transition-duration:0.1s;
+				}
+				#bandera:hover{
+					opacity:1;
+					}
+					#menus{
+						font-weight:bold;
+						color:white;
+						padding:3px;
+						padding-left:5px;
+						padding-right:5px;
+						cursor:pointer;
+						font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+						transition-duration:0.2s;
+						}
+						#menus:hover{
+							background-color:rgba(0,0,0,0.3);
+							}
+/* Contenedor general */
+#slider-wrapper {
+position: relative;
+width: 100%;
+}
+/* Contenedor slider */
+
+#slider > a {
+position:absolute;
+width: 100%;
+height:400px;
+}
+/* Ajuste de las imágenes */
+#slider img {
+width: 100%;
+height:450px;
+}
+
+/* Flechas de navegación */
+a.mas, a.menos {
+position: absolute;
+top: 46%;
+left: 10px;
+z-index: 10;
+width: 30px;
+height: 30px;
+opacity:0.5;
+transform:rotate(180deg);
+transition-duration:0.2s;
+}
+a.mas {
+left: 100%;
+margin-left: -50px;
+	transform:rotate(0deg);
+}	
+	a.mas:hover, a.menos:hover {
+		opacity:1;
+	}
+					
+					#noticias{
+						margin:10px;
+						width:200px;
+						}	
+						#noticia{
+							padding:10px;
+							cursor:pointer;
+							border-radius:4px;
+							width:280px;
+							border-width:1px;
+						border-style:solid;
+						box-shadow: 0.1em 0.1em 0em grey;
+						font-family:Georgia, "Times New Roman", Times, serif;
+						border-color:rgba(204,204,204,1);
+						margin-bottom:10px;
+							}
+							#fecha{
+								font-style:italic;
+								color:rgba(153,153,153,1);
+								font-size:12px;
+								float:right;
+								}
+								#noticiaimagen{
+									border-style:double;
+									border-color:grey;
+									border-width:1px;
+									border-radius:4px;
+									}
+									#cuerpo{
+										width:700px;
+										font-family:Tahoma, Geneva, sans-serif;
+										font-size:18px;
+										margin:10px;
+										
+										top:0px;
+										
+										}
+										#titulocuerpo{
+											font-family:Tahoma, Geneva, sans-serif;
+											font-size:36px;
+											border-bottom-color:rgba(0,153,102,1);
+										border-bottom-width:1px;
+										border-bottom-style:solid;
+										padding:0px;
+										padding-left:0px;
+											}
+											#directoriopersonal{
+													
+										padding:3px;
+										background-color:green;
+										color:white;
+										font-weight:bold;
+										cursor:pointer;
+										transition: padding 0.2s;
+										-webkit-transition: padding 0.2s;
+										box-shadow:0.1em 0.1em 0.0em grey;
+												}
+													#directoriopersonal1{
+												
+										padding:3px;
+										transition: padding 0.2s;
+										-webkit-transition: padding 0.2s;
+										font-weight:bold;
+										cursor:pointer;
+												}
+												#directoriopersonal:hover{
+													padding-left:10px;
+													background-image:url(flechablanca.png);
+													background-repeat:no-repeat;
+													background-position:right;
+													}
+													#directoriopersonal1:hover{
+															padding-left:10px;
+													background-image:url(flechagreen.png);
+													background-repeat:no-repeat;
+													background-position:right;
+														}
+														
+													#acercade1, #acercade2, #acercade3, #acercade4, #acercade5, #acercade6{
+															padding:3px;
+															width:280px;
+															border-radius:4px;
+															cursor:pointer;
+															color:black;
+															font-weight:bold;
+															transition: padding 0.2s;
+										-webkit-transition: padding 0.2s;
+															
+																background-image:url(mas.gif);
+													background-repeat:no-repeat;
+													background-position:right;
+															}
+															#acercade1:hover{
+																padding-left:10px;
+																}
+																.organizacion1, .organizacion2, .organizacion3, .organizacion4, .organizacion5, .organizacion6 {
+																	color:black;
+																	padding:0px;
+															
+																display:none;
+																
+																
+																	}
+																	#maspaginas{
+																		  background-color:rgba(153,153,153,1);
+																		  width:100%;
+																		  height:60px;
+																		  text-align:center;
+																		}
+																  #web{
+																	   padding:30px;
+																	  padding-bottom:20px;
+																	  
+																	 cursor:pointer;
+						font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+						font-weight:bold;
+						color:white;
+						}
+					
+							#webs{
+								height:70px;
+								margin:10px;
+								cursor:pointer;
+								}
+								#terminar{
+									width:100%;
+									height:400px;
+									background:url(fin.jpg);
+									background-size:cover;
+									}
+								#fin{
+									width:100%;
+									height:40px;
+									border-top-width:3px;
+									border-top-style:solid;
+									border-top-color:green;
+								
+								
+									
+									}
+									#tituloterminar{
+										color:white;
+										font-weight:bold;
+										font-size:20px;
+									    padding:10px;
+									
+										font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+										
+										}
+										#textoterminar{
+										color:white;
+										font-weight:bold;
+										font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+										padding:10px;
+										cursor:pointer;
+										transition-duration:0.2s;
+										}
+										#textoterminar:hover{
+											text-decoration:underline;
+											}
+						

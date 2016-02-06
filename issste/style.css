@@ -1,0 +1,318 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, html, div{
+	margin:0px;
+	padding:0px;
+	border:0px;
+  
+	}
+	#textofin{
+		padding-left:30px;
+		color:black;
+		text-shadow: 0.0em 0.0em 0.2em grey;
+		font-weight:bold;
+		}
+	#descargar{
+		height:250px;
+		width:350px;
+		 font-weight:bold;cursor:pointer;padding:10px;float:right;margin:40px;border-radius:4px;background-color:rgba(250,250,250,0.5);border-right-width:2px;border-right-style:solid;border-right-color:rgba(0,0,0,0.5);border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:rgba(0,0,0,0.5);font-family:Montserrat;color:black;
+		transition-duration:0.6s;
+		}
+		
+		#descargar:hover{
+			transform:scale(1.1,1.1)
+			}
+		
+		
+	#superior{
+		width:100%;
+		height:70px;
+		background:url(superior.png);
+		text-shadow: 0.1em 0.1em 0.0em rgba(199,199,199,1.00);
+		box-shadow: 0.0em 0.0em 0.3em black;
+		z-index:99;
+		position:absolute;
+		top:0px;
+		left:0px;
+		font-family:'Montserrat',serif;
+	    font-size:20px;
+		}
+		.menu{
+			top:500px;
+			left:0px;
+			position:absolute;
+			background-color:rgba(155,155,155,1.00);
+			width:100%;
+			z-index:1;
+		height:30px;
+		box-shadow: 0.0em 0.2em 0.0em rgba(140,140,140,1.00);
+		
+			}
+			#submenu1, #submenu2, #submenu3, #submenu4{
+				font-family:'Montserrat',serif;
+	    font-size:14px;
+		color:white;
+		padding-left:15px;
+		padding-right:5px;
+		padding-top:2px;
+		padding-bottom:5px;
+		transition-duration:0.3s;
+		
+				}
+				#submenu1:hover, #submenu2:hover, #submenu3:hover, #submenu4:hover{
+					color:black;
+					cursor:pointer;
+					text-shadow: 0.0em 0.0em 0.1em grey;
+					background-image:url(flecha_menu.png);
+					background-position:left;
+					background-repeat:no-repeat;
+					}
+					
+					#slide{
+						width:100%;
+						height:430px;
+						background-position:center;
+						background-attachment:fixed;
+						background-repeat:no-repeat;
+						background:url(issste_1.jpg);
+						background-color:#FFFFFF;
+						background-size:cover;
+						z-index:3;
+						box-shadow: 0.0em 0.0em 0.3em black;
+						
+						top:70px;
+						left:0px;
+						position:absolute;
+						
+						}
+						
+						#parte1{
+							top:505px;
+							width:100%;
+							position:absolute;
+							background:rgba(236,236,236,1.00);
+							
+							
+							}
+							.margendetexto{
+								
+								padding-left:30px;
+								padding-right:30px;
+			
+								padding-bottom:1px;
+								}
+								.imagen{
+									margin:20px;
+									border:dashed;
+									padding:10px;
+									border-color:rgba(221,221,221,1.00);
+					box-shadow: 0.3em 0.3em 0.5em grey;
+									}
+			.titulo{
+				font-family:'Montserrat',serif;
+				text-shadow: 0.05em 0.05em 0.0em rgba(199,199,199,1.00);
+				font-size:36px;
+				}
+				.texto{
+					font-family:'Montserrat',serif;
+				text-shadow: 0.05em 0.05em 0.0em rgba(199,199,199,1.00);
+				font-size:20px;
+                
+					
+					}
+					
+    .sticky {  
+        position: fixed;  
+        width: 100%;  
+        left: 0;  
+        top: 0;  
+        z-index: 100;  
+        border-top: 0;  
+    }  
+#back-to-top{
+		position:fixed;
+		z-index:10000;
+		bottom:20px;
+		right:20px;
+		cursor:pointer;
+		border-radius:6px;
+		display:block;
+		height:80px;
+		width:80px;
+		background: url(up.png) no-repeat center center;
+		margin-bottom:4px;
+		-moz-transition:background 1s;
+		-webkit-transition:background 1s;
+		-o-transition:background 1s;
+		
+	}
+	#parte2{
+							width:100%;
+							background:white;
+						
+						}
+						#parte3{
+							width:100%;
+							background:rgba(236,236,236,1.00);
+							}
+	#parte4{
+		
+							width:100%;
+						
+		}
+	#parte5{
+							width:100%;
+						background:white;
+		}
+		#parte6{
+							width:100%;
+						background:rgba(236,236,236,1.00);					
+		}
+		#fin{
+			
+							width:100%;
+							text-align:center;
+							background:white;
+							background-image:url(tri.png);
+							background-repeat:repeat-x;
+							height:200px;
+							
+			
+			}
+			 #parte2, #parte3, #parte4, #parte5, #parte6{
+				border-top:solid;
+				border-top-color:#C1C1C1;
+				border-top-width:5px;
+				
+				}
+		
+p{
+	margin:20px;
+	}
+	#descarga{
+		width:250px;
+		}
+				
+				li{
+					margin:10px;
+					}
+				@media only screen and (max-width: 1060px) {
+					
+					.menu{
+						display:none;
+						}
+						#parte1{
+						 top:450px;
+							}
+						#nodescarga{
+							display:none;
+							
+							}
+							#descargar{
+								height:50px;
+								padding:0px;
+								margin:10px;
+								width:200px;
+								}
+							#descarga{
+								
+								display:block;
+								}
+								#slide{
+									height:380px;
+									}
+					td{
+						display: block; 
+						padding:20px;
+						text-align:center;
+						}
+						
+			.titulo{
+				font-size:30px;
+				}
+				.texto{
+				font-size:20px;
+					}
+					#superior{
+	
+	font-size:18px;
+	}
+				}
+		@media only screen and (max-width: 640px) {
+					#textofin{
+		display:block;
+		padding:10px;
+		}
+
+					#slide{
+									height:250px;
+									}
+									#descarga{
+										width:200px;
+										}
+						img{
+							width:80%;
+							}
+							#parte1{
+								top:320px;
+								}
+								#titulosize{
+									font-size:16px;
+									
+									}
+								
+					.titulo{
+				font-size:20px;
+				padding:20px;
+				}
+				.texto{
+				font-size:16px;
+					
+					}
+					td{
+padding:9px;						}
+#superior{
+	
+	font-size:17px;
+	}
+		}
+		@media only screen and (max-width: 400px) {
+			#titulosize{
+									font-size:14px;
+									text-shadow: 0.05em 0.05em 0.0em grey;
+									}
+							td{
+						padding-bottom:4px;
+												}
+					.titulo{
+				font-size:17px;
+				padding:5px;
+				}
+				.texto{
+				font-size:14px;
+					
+					}
+					#back-to-top{
+						width:40px;
+						height:40px;
+						background-size:cover;
+						}
+						.margendetexto{
+								
+								padding-left:0px;
+								padding-right:0px;
+								padding-bottom:15px;
+								}
+								.imagen{
+									margin:5px;
+									padding:10px;
+							
+									}
+									li{
+					margin:0px;
+					}
+					p{
+	margin:0px;
+	}
+			}

@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^webcbtis\.englishready\.net$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.webcbtis\.englishready\.net$
+RewriteRule ^/?$ "http\:\/\/www\.webcbtis\.englishready\.net\/index\.html" [R=301,L]
+

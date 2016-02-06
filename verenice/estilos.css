@@ -1,0 +1,204 @@
+@charset "utf-8";
+
+/* CSS Document */
+html, body, td, table{
+	margin:0px;
+	padding:0px;
+	border:0px;
+	}
+body{
+	background:url(fondo.jpg) no-repeat center center;
+	background-size:cover;
+		}
+.titulo{
+	background:url(titulo.png) no-repeat top;
+	background-size:contain;
+	text-transform:uppercase;
+	font-size:18px;
+	margin-top:20px;
+	width:395px;
+	height:91px;
+	font: normal normal bold 40px/1.4em 'noticia text', serif;
+color: rgb(58, 28, 19);
+	}
+.bienvenido{
+	text-transform:uppercase;
+	font-size:18px;
+	margin-top:20px;
+	width:395px;
+	height:91px;
+	font: normal normal bold 40px/1.4em 'noticia text', serif;
+color: rgb(58, 28, 19);
+	}
+.texto{
+	line-height: 1.4em;
+	font: normal normal normal 18px/1.4em helvetica-w01-light, helvetica-w02-light, sans-serif;
+color: rgb(58, 28, 19);word-wrap: break-word;
+font-weight:normal;
+
+	}
+.cuadro{
+	background-color:#F7F1E1;
+	width:315px;
+	padding:25px;
+	height:500px;
+	margin:5px;
+	}
+.menu{
+	list-style:none;
+	float:left;
+	color:rgba(153,102,51,1);
+	font-weight:bold;
+	transition-duration:0.5s;
+	padding:8px;
+	padding-left:30px;
+	font: normal normal bold 12px/1.4em 'noticia text', serif;
+	padding-right:30px;
+	}
+.menu:hover{
+	background-color: rgb(232, 115, 48);
+color: rgb(244, 239, 225);
+	}
+.titulomenu{
+		text-transform:uppercase;
+background-color:#F7F1E1;
+font-size: 10px;
+font-family: Arial,Helvetica,sans-serif;
+	height:32px;
+	text-align:center;
+	}
+.pagina{
+	background-color: rgb(58, 28, 19);
+	color:#F7F1E1;
+		list-style:none;
+	float:left;
+	font-weight:bold;
+	padding:8px;
+	padding-left:30px;
+	font: normal normal bold 12px/1.4em 'noticia text', serif;
+	padding-right:30px;
+
+	}
+.numero{
+		background-color: rgb(232, 115, 48);
+	color:#F7F1E1;
+		list-style:none;
+	display:inline-block;
+	font-weight:bold;
+	float:right;
+	padding:8px;
+	padding-left:50px;
+	font: normal normal bold 12px/1.4em 'noticia text', serif;
+	padding-right:50px;
+
+	}
+	
+.imagenborde{
+border: 10px solid #F7F1E1;
+margin:5px;
+width:299px;
+}
+.subtitulofinal{
+	font: normal normal bold 18px/1.4em 'noticia text', serif;
+color: rgb(58, 28, 19);
+display:block;
+	}
+.cuadrofinal{
+	border-right: 1px dotted  rgb(58, 28, 19);
+	padding:10px;
+	}
+.cuadroanaranjado{
+	visibility: visible;
+left: 407px;
+top: 28px;
+min-width: 165px;
+min-height: 86px;
+border: 0px solid rgb(232, 115, 48);
+border-image-source: initial;
+border-image-slice: initial;
+border-image-width: initial;
+border-image-outset: initial;
+border-image-repeat: initial;
+padding:5px;
+background-color: rgb(232, 115, 48);
+border-radius: 0px;
+	}
+.textoanaranjado{
+border-radius: 0px;
+top: 6px;
+bottom: 6px;
+padding-left:30px;
+padding-right:30px;
+left: 6px;
+right: 6px;
+border: 1px solid rgb(244, 239, 225);
+color: rgb(244, 239, 225);
+font: normal normal bold 24px/1.4em 'noticia text', serif;
+text-transform:uppercase;
+text-align:center;
+background-color: rgb(232, 115, 48);}
+
+.imagen{
+	margin:2px;
+	}
+.submenu{
+	font: normal normal bold 25px/1.4em 'noticia text', serif;
+color: rgb(58, 28, 19);
+display:block;
+	}
+.precio{
+	font: normal normal bold 20px/1.4em 'noticia text', serif;
+color: rgb(58, 28, 19);
+display:block;
+	}
+p{
+	font: normal normal normal 18px/1.4em helvetica-w01-light, helvetica-w02-light, sans-serif;
+color: rgb(58, 28, 19);
+	}
+.caja{
+	color: rgb(58, 28, 19);
+background-color: rgb(255, 255, 255);
+font: normal normal normal 14px/1.4em helvetica-w01-light, helvetica-w02-light, sans-serif;
+box-sizing: border-box;
+border-radius: 0px;
+outline:none;
+border: 0px solid rgb(58, 28, 19);
+border-image-source: initial;
+border-image-slice: initial;
+border-image-width: initial;
+border-image-outset: initial;
+border-image-repeat: initial;
+padding: 5px;
+margin: 0px 0px 5px;
+width: 100%;
+-webkit-appearance: none;
+	}
+.area{
+		color: rgb(58, 28, 19);
+background-color: rgb(255, 255, 255);
+font: normal normal normal 14px/1.4em helvetica-w01-light, helvetica-w02-light, sans-serif;
+box-sizing: border-box;
+border-radius: 0px;
+outline:none;
+border: 0px solid rgb(58, 28, 19);
+border-image-source: initial;
+border-image-slice: initial;
+border-image-width: initial;
+border-image-outset: initial;
+border-image-repeat: initial;
+padding: 5px;
+margin: 0px 0px 5px;
+width: 200px;
+height:100%;
+resize:none;
+-webkit-appearance: none;
+	}
+.boton{
+color: rgb(255, 255, 255);
+background-color: rgb(58, 28, 19);
+font: normal normal normal 14px/1.4em helvetica-w01-light, helvetica-w02-light, sans-serif;
+padding: 5px;
+border: none;
+cursor: pointer;
+float:right;
+	}

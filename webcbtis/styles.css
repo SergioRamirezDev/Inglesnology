@@ -1,0 +1,408 @@
+html, body, div, ol, ul, li,
+table,tr, td {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	outline: 0px;
+	vertical-align: baseline;
+	
+}
+.centrar{
+	float:left;
+	}
+#phptitulo{
+	font-family: 'Roboto', serif;
+	font-weight:bold;
+	color:#A20D0D;
+	text-shadow: 0.0em 0.0em 0.1em grey;
+	font-size:24px;
+	
+	}
+	.desaparecer{
+		}
+		.let{
+		}
+#phptexto{
+	font-family: 'Roboto', serif;
+	font-weight:bold;
+	text-shadow: 0.0em 0.0em 0.1em grey;
+	font-size:20px;
+	
+	}
+	#phpresultado{
+	font-family: 'Roboto', serif;
+	font-weight:bold;
+	color:rgba(108,108,108,1.00);
+	text-shadow: 0.0em 0.0em 0.1em grey;
+	font-size:20px;
+	
+	}
+h2{
+	
+font-family: 'Audiowide', serif;
+}
+
+
+	#input{
+		border:0px;
+		font-size:18px;
+	background:url(rojo.jpg);
+	transition-duration:0.3s;
+	width:300px;
+	height:32px;
+	font-family: 'Audiowide', serif;	
+	cursor:pointer;
+	border:5px;
+	border:dashed;
+	border-color:#A20D0D;
+	}
+	
+	#input2{
+		font-family: 'Audiowide', serif;
+		font-size:18px;
+		background:url(buscador.png);
+		padding-left:40px;
+		width:260px;
+	height:32px;
+		transition-duration:0.3s;
+		cursor:pointer;
+		border:5px;
+	border:dashed;
+	border-color:#A20D0D;
+	}
+	#input3{
+		font-family: 'Audiowide', serif;
+	background:url(rojo.jpg);
+	transition-duration:0.3s;
+	border:5px;
+	border:dashed;
+	border-color:#A20D0D;
+	font-size:18px;
+	width:300px;
+	height:32px;
+	cursor:pointer;
+	}
+	#face{
+		visibility:collapse;
+		position:absolute;
+		}
+	.face{
+		visibility:collapse;
+		position:absolute;
+		}
+	#input:hover, #input3:hover, #input2:hover{
+		
+		color:rgba(255,255,255,1.00);
+	
+		}
+table{
+	width:100%; 
+padding:100px;
+}
+/* Aqui empieza los estilos de la barra de titulo de la pagina web */
+#superior {
+	height:68px;
+	top:0px;
+	left:0px;
+	background: url(rojo.jpg);
+	z-index:99;
+	margin:0px;
+	padding:0px;
+	background-size:cover;
+	position: fixed;
+	box-shadow: 0.1em 0.1em 0.3em #000000;
+	width: 100%;
+	min-width: 320px;
+	border-bottom:5px;
+	border-bottom-style:solid;
+	background-color:#A20D0D;
+	border-bottom-color:#A20D0D;
+    
+	
+}
+
+div ul{
+	list-style:none;
+	font-family: 'Audiowide', serif;
+	font-size:24px;
+	color:#FFFFFF;
+	
+	}
+	div ul li a{
+		text-decoration:none;
+		float:left;
+		padding:0px 20px;
+		margin-top:28px;
+		text-align:center;
+		line-height:20px;
+		height:42px;
+		color:#FFFFFF;
+		text-shadow: 0.1em 0.1em 0.0em #A20D0D;
+		}		
+	
+			
+		#titulo a{
+			padding:0px 20px;
+			-moz-transition:padding 0.1s;
+			}
+		#titulo a:hover{
+			background:url(h.png)no-repeat;
+			background-position:bottom;
+			padding-top:3px;
+			}
+			
+			
+#logo{
+	 margin:10px;
+	 width:250px;
+	 float:right;
+	}
+	
+/* Aqui termina los estilos de la barra de titulo de la pagina web */
+#medio{
+	top:73px;
+	left:0px;
+	height:405px;
+	background:#A20D0D;
+	z-index: 1;
+	background-size:cover;
+	position: absolute;
+	width: 100%;
+	min-width: 320px;
+	
+	}
+
+	#medio2{
+		background-repeat: repeat-x;
+	background-position: center;
+	background-position: top;
+	background-image: url(rayagris.png);
+	top: 478px;
+	left: 0px;
+	z-index: 3;
+	
+	position: absolute;
+	width: 100%;
+
+	}
+	#fin{
+	background-color:#A20D0D;
+	background-repeat:repeat-x;
+	background-position:center;
+	background-position:top;
+	background-image:url(tri.png);
+	width: 100%;
+	}
+	
+	
+	
+    #titulotexto{
+		font-family: 'Chewy', serif;
+    font-size:36px;
+	text-shadow: 0.07em 0.07em 0.0em #FFFFFF;
+	padding:10px;
+	
+		}
+    #texto{
+		font-family:'Cabin', serif;
+    font-size:24px;
+	text-shadow: 0.1em 0.1em 0.1em #FFFFFF;
+		}
+		#imgleft{
+			float:left;
+			padding:10px;
+			}
+			#imgright{
+			float:right;
+			padding:10px;
+			}
+.scroll-to-top-link{
+     position:fixed;
+     width:70px;
+    right:10px;
+    bottom:10px;
+    cursor:pointer;
+    display:none;
+	padding:0px 0px;
+	transition: 0.6s;
+	-webkit-transition:0.6s;
+	-moz-transition:0.6s;
+	
+}
+.scroll-to-top-link:hover{
+padding-right:10px;
+width:80px;
+	}
+	.mobile{
+		visibility:collapse;
+		}
+		.nav-toggle{
+			visibility:collapse;
+			float:right;
+			
+			
+			}
+	.menu-toggle{
+		float:right;
+		margin:5px;
+		width:60px;
+		}
+		.imagenesmedia{
+			height:300px;
+			}
+			#imagentitulo{
+	height:400px;
+	width:100%;
+	background:center;
+	
+	
+	}
+
+@media only screen and (max-width: 1180px) {
+	.centrar{
+	float:none;
+	}
+
+	table{
+padding:30px
+}
+
+	.mobile{
+		visibility:visible;
+		}
+		.nav-toggle{
+			visibility:visible;
+		
+			
+			}
+			.invisible{
+				visibility:collapse;
+				margin:0px;
+				padding:0px;
+				overflow:visible;
+				position:absolute;
+				
+				}
+				.visible{
+				visibility:visible;
+				}
+				#titulo a:hover{
+			background:none;
+			}
+			
+    #titulotexto{
+	padding-bottom:0px;
+	
+		}
+#medio2{
+	background-image:url(rayagris1.png);
+}
+
+@media only screen and (max-width: 1200px) {
+	
+#imagentitulo{
+	height:300px;
+	width:100%;
+	}
+iframe{
+	height:300px;
+	}
+	#medio2{
+	top:373px;
+	
+	
+	}
+#medio{
+	height:300px;
+	}
+	#imgleft{
+			float:none;
+			padding:10px;
+			
+			}
+			#imgright{
+				
+			float:none;
+			padding:10px;
+			}
+
+}
+
+
+@media only screen and (max-width: 528px) {
+	
+	#titulotexto{
+    font-size:30px;
+	
+		}
+		
+	#logo{
+	 margin:10px;
+	 width:220px;
+	}
+	.menu-toggle{
+		width:55px;
+		}
+		.imagenesmedia{
+			height:200px;
+			}
+			 #titulotexto{
+    font-size:30px;		}
+    #texto{
+    font-size:20px;
+		}
+		h2{
+			font-size:22px;
+			}
+				.scroll-to-top-link{
+padding-right:10px;
+width:60px;
+	}
+	.scroll-to-top-link:hover{
+padding-right:10px;
+width:70px;
+	}
+	
+}
+@media only screen and (max-width: 527px) {
+	#titulotexto{
+    font-size:24px;		}
+    #texto{
+    font-size:16px;
+		}
+		h2{
+			font-size:18px;
+			}
+			.imagenesmedia{
+			height:180px;
+			}
+			.scroll-to-top-link{
+padding-right:10px;
+width:50px;
+	}
+	.scroll-to-top-link:hover{
+padding-right:10px;
+width:60px;
+	}
+			iframe{
+	height:250px;
+	}
+	#imagentitulo{
+	height:250px;
+	width:100%;
+	
+	}
+	#medio2{
+	top:323px;
+	
+	
+	}
+#medio{
+	height:250px;
+	
+	}
+.imagenesmedia{
+			height:200px;
+			}
+			
+	}

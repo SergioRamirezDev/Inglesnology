@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	-webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+		-ms-background-size: cover;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-attachment: fixed;
+		min-height: 100%;
+		margin:0;
+		-webkit-animation-name: fondo;
+		-webkit-animation-duration: 60s;
+		-webkit-animation-timing-function: ease-in-out;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-direction: alternate;
+		-webkit-transition: all 5s;
+		-moz-animation-name: fondo;
+		-moz-animation-duration: 60s;
+		-moz-animation-timing-function: ease-in-out;
+		-moz-animation-iteration-count: infinite;
+		-moz-animation-direction: alternate;
+		-moz-transition: all 5s;
+	}
+	body{
+		min-height:100%;
+		margin:0;
+		color:#FFFFFF;
+		
+		
+		}
+    @-webkit-keyframes fondo{
+		0%{
+			background-image:url(1.jpg);
+			
+		}
+		25%{
+			background-image:url(2.jpg);
+			
+			
+		}
+		50%{
+				background-image:url(3.jpg);
+			
+			
+		}
+		75%{
+			background-image:url(4.jpg);
+			
+		}
+		100%{
+				background-image:url(3.jpg);
+			
+			
+		}
+	}
